@@ -1,0 +1,11 @@
+Below is the basic algorithm: 
+for i: 1 to 10 do 
+  if calleduserid not in friends[i] then 
+    print ('This person may be unknown - you can only place a call with them if you ddd them to your friends list. Reply Y to add them to your friends list')
+  endif
+  if reply == input('Y') then 
+    print ('This person has been added to your friends list')
+    friends[i+1] = calleduserid
+  else
+    print ('Hi, I'm CIVI. How can I help you today?')
+  endif 
